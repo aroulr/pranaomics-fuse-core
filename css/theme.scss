@@ -5,8 +5,8 @@
 $fc-footer-height: 44px;
 
 @font-face {
-    font-family: Lato;
-    src: url(https://fonts.googleapis.com/css2?family=Lato);
+    font-family: 'Lato';
+    src: url('https://fonts.googleapis.com/css2?family=Lato');
     font-weight: 300px;
 }
 
@@ -45,6 +45,7 @@ div.fuse-core-content {
 
 #avatar {
     height: 180px;
+    width: 180px;
     border-radius: 100%;
     border: 5px solid white;
 }
@@ -62,6 +63,7 @@ h1 {
 }
 h3 {
     font-size: 1.2em;
+    color: black;
 }
 
 
