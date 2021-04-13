@@ -46,7 +46,10 @@ div.fuse-core-content {
 #avatar {
     height: 180px;
     weight: 180px;
+    overflow: hidden;
     display: inline-block;
+    background-size: cover;
+    background-position: center;
     border-radius: 100%;
     border: 3px solid white;
 }
