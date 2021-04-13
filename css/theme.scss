@@ -4,9 +4,16 @@
 
 $fc-footer-height: 44px;
 
-html, body {
-    font-family: 'Open Sans',Arial,Helvetica,sans-serif;
+@font-face {
+    font-family: Lato;
+    src: url(https://fonts.googleapis.com/css2?family=Lato);
+    font-weight: 300px;
 }
+
+html, body {
+    font-family: 'Lato', sans-serif;
+}
+
 html {
     position: relative;
     min-height: 100%;
@@ -30,7 +37,7 @@ div.glass-pane {
 }
 
 div.fuse-core-content {
-    color: white;
+    color: #50C878;
 }
 
 
