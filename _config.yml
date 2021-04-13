@@ -28,13 +28,13 @@ robots:
     crawl: index,follow
 
 # website address when deployed, also given as canonical link
-url: https://tsjensen.github.io/fuse-core/
+url: https://aroulr.github.io/pranaomics-fuse-core/
 
 # The 'baseurl' is prepended to all website-internal links.
 # 'baseurl' will often be '', but for a project page on gh-pages, it needs to be the project name.
 # If not empty, be careful to keep the leading slash, and don't add a slash at the end.
 #baseurl: ''
-baseurl: '/fuse-core'
+baseurl: '/pranaomics-fuse-core'
 
 # Enable Google Analytics. Leave empty (just "ga:" with subitems commented out) to disable.
 # In order to comply with EU cookie law, enable 'cookieconsent' to show a little popup asking users to acknowledge the GA cookies.
@@ -75,12 +75,12 @@ links:
       icon: fab fa-google-plus
   - twitter:
       name: Twitter
-      show: true
+      show: false
       href: https://twitter.com/YOUR_TWITTER_USERNAME
       icon: fab fa-twitter
   - weibo:
       name: 微博
-      show: true
+      show: false
       href: https://weibo.com/YOUR_WEIBO_USERNAME
       icon: fab fa-weibo
   - vine:
@@ -95,7 +95,7 @@ links:
       icon: fab fa-facebook
   - vkontakte:
       name: ВКонтакте
-      show: true
+      show: false
       href: https://vk.com/YOUR_VK_USERNAME
       icon: fab fa-vk
   - instagram:
@@ -125,8 +125,8 @@ links:
       icon: fab fa-lastfm
   - github:
       name: GitHub
-      show: true
-      href: https://github.com/tsjensen
+      show: false
+      href: https://github.com/YOUR_NAME
       icon: fab fa-github
   - codepen:
       name: CodePen
@@ -155,17 +155,17 @@ links:
       icon: fab fa-tumblr
   - blog:
       name: Blog
-      show: true
+      show: false
       href: http://host.domain/your_blog
       icon: fas fa-book-open
   - email:
       name: Email
       show: true
-      href: mailto:jonathan.doe@host.domain
+      href: mailto:arshaom9@gmail.com
       icon: fas fa-envelope
   - publickey:
       name: PGP Key
-      show: true
+      show: false
       href: https://pastebin.com/raw/YOUR_PUBLIC_KEY
       icon: fas fa-key
 
@@ -173,7 +173,6 @@ links:
 # Extra HTML which will be displayed below the links. Keep it short. Leave empty to disable.
 #extra_html:
 extra_html: >
-    Any (multiline) text containing simple HTML,
-    such as links or ... lorem ipsum.
+    We envision to deliver personalised healthcare applications and products.
 
 #EOF
