@@ -12,9 +12,9 @@ sass:
 # When modifying this file, take care to preserve the indentation. This is YAML ...
 
 # Main Headline, name required, subtitle optional
-name: Fuse Core
+name: PRANAOMICS
 #subtitle:
-subtitle: Frontend Developer
+#subtitle: Frontend Developer
 
 # Title attribute of HTML Page, uses 'name' from above if empty
 title:
@@ -23,7 +23,7 @@ title:
 # 'description' and 'keywords' simply set the corresponding meta tags,
 # 'crawl' is the 'Robots' tag http://www.robotstxt.org/meta.html
 robots:
-    description: One line of text describing the content of the page in less than 140 characters.
+    description: Delivering personalised healthcare.
     keywords: foo, bar, baz
     crawl: index,follow
 
@@ -50,9 +50,9 @@ ga:
 # A picture of you, square(!), at least 180x180 pixels, more is better. Recommended file size < 100 KB.
 # Leave empty for generic placeholder image.
 # You can use your GitHub image:
-avatar: "https://avatars0.githubusercontent.com/u/8897534"
+#avatar: "https://avatars0.githubusercontent.com/u/8897534"
 #avatar: "images/jonathan_doe.jpg"
-#avatar:
+avatar: "images/logo.jpg"
 
 
 # All the social media and other sites that we want to link to. The 'show' flag determines if the link is shown.
