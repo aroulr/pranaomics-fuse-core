@@ -4,14 +4,8 @@
 
 $fc-footer-height: 44px;
 
-@font-face {
-    font-family: 'Lato';
-    src: url('https://fonts.googleapis.com/css2?family=Lato');
-    
-}
-
 html, body {
-    font-family: Lato, sans-serif;
+    font-family: 'Raleway', sans-serif;
 }
 
 html {
@@ -44,14 +38,12 @@ div.fuse-core-content {
 /* --------- Avatar ---------------------------------------------------------------------------- */
 
 #avatar {
-    height: 180px;
-    weight: 180px;
-    overflow: hidden;
+    height: 111px;
+    weight: 111px;
     display: inline-block;
-    background-size: cover;
     background-position: center;
     border-radius: 100%;
-    border: 3px solid white;
+    border: 0px solid white;
 }
 
 

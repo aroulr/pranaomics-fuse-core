@@ -1,3 +1,11 @@
 /_site/
 /_support/
 /.jekyll-metadata
+.Rproj.user
+.Rhistory
+/.jekyll-cache/
+/misc/
+Gemfile
+Gemfile.lock
+pranaomics-fuse-core.Rproj
+/resources/

@@ -37,7 +37,7 @@ permalink: /
           href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
           integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc">
     <link rel="stylesheet" type="text/css"
-          href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&subset=latin">
+          href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap">
     
     {% if site.ga and site.ga.cookieconsent %}
     <!-- Cookie Consent popup to comply with EU cookie law -->
@@ -67,7 +67,7 @@ permalink: /
 <div class="container fuse-core-content pb-4">
 
 <div class="row pt-sm-4">
-    <div class="col text-center"><img id="avatar" class="my-3 my-sm-4" alt="{{ site.name }}"
+    <div class="col text-center"><img id="avatar" class="rounded-0" alt="{{ site.name }}"
         src="{% if site.avatar %}{% if site.avatar contains '://' %}{{ site.avatar }}{%
         else %}{{ site.baseurl }}/{{ site.avatar }}{% endif %}{%
         else %}{{ site.baseurl }}/images/avatar.svg{% endif %}"></div>
